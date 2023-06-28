@@ -1,0 +1,103 @@
+* { 
+    border-radius: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#suscribete {
+    color: black;
+    place-content: end;
+}
+
+#microfono {
+    place-content: center;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    height: 98vh;
+    gap: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: auto;
+}
+
+header {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 1/-1;
+    display: grid;
+    place-content: center;
+}
+
+nav {
+    background-color: red;
+    grid-column: 1/-1;
+    display: grid;
+    place-content: center;
+    padding: 18px;
+    gap: 18px;
+}
+    
+
+
+footer {
+    background-color: red;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+}
+
+#suscribete {
+    -webkit-text-stroke: 1px black;
+    color: white; 
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+section {
+    background-color: red;
+    text-align: center;
+    grid-row: 3/12;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    gap: 18px;
+    display: grid;
+}
+
+aside {
+    background-color: red;
+    text-align: center;
+    grid-row: 3/12;
+    place-content: center;
+    padding: 18px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+}
+
+article {
+    background-color: white;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+
